@@ -1,0 +1,34 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node serve.js",
+    "clean": "rimraf build",
+    "build": "npm run clean && node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild-style-plugin": "^1.6.0",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.7",
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.14.48",
+    "esbuild-copy-static-files": "^0.1.0",
+    "esbuild-sass-plugin": "^2.2.6",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.14",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.1.5"
+  }
+}

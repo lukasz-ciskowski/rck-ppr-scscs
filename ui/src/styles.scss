@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Malve";
+  src: url("../public/fonts/Malve.otf");
+}
+
+@layer base {
+  html {
+    @apply text-stone-50;
+    @apply bg-slate-700;
+  }
+}
+
+.btn--primary {
+  font-family: "Malve";
+  @apply text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600;
+  cursor: pointer;
+}
